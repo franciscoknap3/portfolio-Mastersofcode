@@ -5,14 +5,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1A0B2E;
+
+  background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #1A0B2E;
+    background-color: black;
     border-bottom: solid 5px white;
 }
 
@@ -45,7 +50,7 @@ header a{
 
 .lenguajes h1{
     color: white;
-    font-size: 32px;
+    font-size: 55px;
     font-family: 'Cascadia Code', monospace;
     align-items: center;
     text-align: center;
@@ -55,7 +60,6 @@ header a{
 .card {
     margin: 10px;
     border: 3px solid black;
-    background-color: #8461a8;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -73,8 +77,10 @@ header a{
 .cards{
     display: flex;
     gap: 30px;
-    margin-top: 60px;
-    padding-bottom: 90px;
+    margin-top: 150px;
+    padding-bottom: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
     
 }
 .card h3{
@@ -87,20 +93,9 @@ header a{
     font-family: 'Cascadia Code', monospace;
     color: white;
 }
-footer{
-    background-color: #1A0B2E;
-    border-top: solid 5px white;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    font-family: 'Cascadia Code', monospace;
-    margin-top: px;
-}
 
 .nosotros{
-    background-color: #8461a8;
-    padding: 80px;
+  padding-top: 200px;
 }
 .nosotros h1{
     color: white;
@@ -119,6 +114,10 @@ footer{
 .presentacion1{
     border: solid 5px white;
     display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 120px;
+    padding-right: 70px;
 }
 
 .presentacion1 img{
@@ -138,7 +137,7 @@ footer{
 
 .presentacion1 p{
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     font-family: 'Cascadia Code', monospace;
     padding-top: 20px;
     padding-left: 80px;
@@ -157,7 +156,7 @@ ul {
   display: flex;
   align-items: center;
   padding-left: 80px;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 .example-2 .icon-content {
   margin: 0 10px;
@@ -272,7 +271,7 @@ ul {
   flex-direction: column;
   gap: 10px;
   width: 800px;
-  background-color: #8461a8;
+  background-color: black;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
@@ -332,4 +331,18 @@ ul {
   width: 1000px;
   height: 600px;
   margin-bottom: 100px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    border-top: solid 5px white;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Cascadia Code', monospace;
+    margin-top: px;
 }
