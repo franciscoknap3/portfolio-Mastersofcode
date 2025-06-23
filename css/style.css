@@ -12,6 +12,8 @@ background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, F
 
 
 }
+
+/* Header */
 header{
     display: flex;
     justify-content: space-between;
@@ -24,14 +26,15 @@ header{
 header a{
     text-decoration: none;
     color: white;
-    font-size: 42px;
+    font-size: 24px;
     font-family: 'Cascadia Code', monospace;
+    margin: 15px;
 }
 
 .menu{
     display: flex;
     list-style: none;
-    gap: 40px;
+    margin: 15px;
 }
 
 .menu li {
@@ -41,16 +44,20 @@ header a{
 .menu li a{
     text-decoration: none;
     color: white;
-    font-size: 32px;
+    font-size: 24px;
 }
+
+/* Inicio Main */
 .principal img{
     width: 100%;
     border-bottom: 3px solid white;
 }
 
+
+/* Lenguajes */
 .lenguajes h1{
     color: white;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Cascadia Code', monospace;
     align-items: center;
     text-align: center;
@@ -66,12 +73,12 @@ header a{
 }
 
 .card img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .card h3{
-    font-size: 32px;
+    font-size: 18px;
 }
 
 .cards{
@@ -84,60 +91,65 @@ header a{
     
 }
 .card h3{
-    font-size: 40px;
+    font-size: 24px;
     font-family: 'Cascadia Code', monospace;
     color: white;
 }
 .card p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Cascadia Code', monospace;
     color: white;
 }
 
+
+/* Nosotros */
+
 .nosotros{
-  padding-top: 200px;
+  padding-top: 20px;
 }
 .nosotros h1{
     color: white;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     font-family: 'Cascadia Code', monospace;
 }
 
 .nosotros h2{
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
+    margin-left: 120px;
+    margin-right: 120px;
     font-family: 'Cascadia Code', monospace;
 }
 
 .presentacion1{
-    border: solid 5px white;
+    border: solid 2px white;
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 120px;
+    margin-top: 60px;
     padding-right: 70px;
 }
 
 .presentacion1 img{
-    width: 15%;
+    width: 250px;
     height: 5%;
-    padding-left: 90px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .presentacion1 h2{
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     font-family: 'Cascadia Code', monospace;
-    padding-top: 90px;
+    padding-top: 20px;
     padding-left: 80px;
 }
 
 .presentacion1 p{
     color: white;
-    font-size: 30px;
+    font-size: 18px;
     font-family: 'Cascadia Code', monospace;
     padding-top: 20px;
     padding-left: 80px;
@@ -146,8 +158,7 @@ header a{
 
 
 /* boton redes */
-
-/* From Uiverse.io by wilsondesouza */ 
+ 
 ul {
   list-style: none;
 }
@@ -246,15 +257,17 @@ ul {
 }
 
 
+
+/* contacto */
 .contacto{
   color: white;
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   font-family: 'Cascadia Code', monospace;
   padding-top: 60px;
 }
 
-/* contacto */
+
 
 .formulario1{
   align-items: center;
@@ -263,14 +276,13 @@ ul {
   padding-top: 60px;
 }
 
-/* From Uiverse.io by Yaya12085 */ 
 .form {
   position: relative;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  width: 800px;
+  width: 600px;
   background-color: black;
   padding: 20px;
   border-radius: 10px;
@@ -328,21 +340,72 @@ ul {
 }
 
 .mapa-mdza iframe{
-  width: 1000px;
+  width: 800px;
   height: 600px;
   margin-bottom: 100px;
 }
 
-
-
+/* Footer */
 
 footer{
     background-color: black;
     border-top: solid 5px white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Cascadia Code', monospace;
-    margin-top: px;
 }
+
+
+/* Media queries */
+
+@media(min-width: 1024px){
+  .cards{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 328px;
+  }
+
+
+  .presentacion1{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .presentacion1 img{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  }
+  .presentacion1 h2{
+    font-size: 22px;
+  }
+  .presentacion1 p{
+    font-size: 18px;
+  }
+
+  .example-2{
+    padding-bottom: 30px;
+  }
+
+  @media (min-width:768px) and (max-width:1023px){
+    header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .presentacion1{
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
