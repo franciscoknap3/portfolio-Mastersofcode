@@ -37,6 +37,7 @@ header a{
     margin: 15px;
 }
 
+
 .menu li {
     text-decoration: none;
 }
@@ -129,22 +130,22 @@ header a{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 60px;
-    padding-right: 70px;
+    padding-right: 20px;
 }
 
 .presentacion1 img{
     width: 250px;
     height: 5%;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
 .presentacion1 h2{
     color: white;
     font-size: 30px;
     font-family: 'Cascadia Code', monospace;
     padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 100px;
 }
 
 .presentacion1 p{
@@ -152,7 +153,8 @@ header a{
     font-size: 18px;
     font-family: 'Cascadia Code', monospace;
     padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 100px;
+    padding-right: 180px;
 }
 
 
@@ -377,7 +379,7 @@ footer{
 
   .presentacion1 img{
     width: 200px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 10px;
   }
   }
@@ -386,6 +388,7 @@ footer{
   }
   .presentacion1 p{
     font-size: 18px;
+    padding-right: 20px;
   }
 
   .example-2{
@@ -407,5 +410,26 @@ footer{
     .presentacion1{
       margin-left: 25px;
       margin-right: 25px;
+      padding-right: 0px;
+      padding-left: 0px;
     }
+
+    .presentacion1 img{
+      margin-top: 80px;
+      width: 180px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .presentacion1 h2{
+      font-size: 20px;
+    }
+    .presentacion1 p{
+      font-size: 16px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+
+
   }
