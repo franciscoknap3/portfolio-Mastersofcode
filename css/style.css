@@ -54,6 +54,14 @@ header a{
     border-bottom: 3px solid white;
 }
 
+.proyectos-realizados h1{
+  text-align: center;
+  color: white;
+  font-family: 'Cascadia Code', monospace;
+  font-size: 40px;
+}
+
+
 
 /* Lenguajes */
 .lenguajes h1{
@@ -131,6 +139,7 @@ header a{
     margin-right: 200px;
     margin-top: 60px;
     padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 .presentacion1 img{
@@ -431,5 +440,48 @@ footer{
     }
 
 
+
+  }
+
+  @media (max-width: 425px){
+    header{
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+    .menu{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      margin: 50px;
+    }
+
+    .presentacion1{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .presentacion1 img{
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .example-2{
+      padding-left: 60px;
+    }
+
+    .mapa-mdza iframe{
+      width: 400px;
+      height: 300px;
+    }
 
   }
